@@ -1,0 +1,29 @@
+###
+POST http://localhost:9000/api/users HTTP/1.1
+Content-Type: application/json
+
+{
+    "name":"Carlos",
+    "age":"22",
+    "email":"Zura_Maru@outlook.com"
+}      
+
+###
+
+GET http://localhost:9000/api/users HTTP/1.1
+
+###
+GET http://localhost:9000/api/users/6391647df7f7ffb5bfd7ecee HTTP/1.1
+
+###
+PUT http://localhost:9000/api/users/639164eef7f7ffb5bfd7ecf0 HTTP/1.1
+Content-Type: application/json
+
+{
+    "name":"Chuy",
+    "age":"22",
+    "email":"alejandro_lerma@hotmail.com"
+}  
+
+###
+DELETE http://localhost:9000/api/users/6391650ef7f7ffb5bfd7ecf2 HTTP/1.1
